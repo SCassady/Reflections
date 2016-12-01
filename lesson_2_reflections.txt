@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+An empty git repository is created in the directory. You need to do it to create
+a git repository for version control.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is the intermediary space in between the two. The value it has is that you
+can decide which files to commit before doing so, and can change your mind about
+them and modify before the commit.
