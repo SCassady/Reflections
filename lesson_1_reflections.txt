@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+The diff command enumerated the lines which had changed between the two different
+versions of the file. This allowed me to check each particular change to see if
+there was any problem in its implementation. This also allowed me to see what
+worked in the previous version.
+
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+It allows you the ability to see where bugs were introduced, and how they might
+be rolled back to previous versions so to start over. It could allow you to see
+your pattern of development, and critique and question the workflow you used
+to create the entire project.
+
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+It allows you to space out your commits by more logical measurements than time.
+In particular, you can space out your commits by features implemented and bugs
+fixed. It also prevents broken commits from occurring, for example if you were
+halfway through a line and an auto-commit was created, it would not compile.
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Codebases usually contain many files, which are often coupled with each other.
+So much so that changing a function's arguments in one file will require changes
+in other. For this reason, it makes more sense to save all the files in one commit,
+so the changes across the whole codebase can be tracked.
+    In something like google docs, it is unlikely that there will be coupling
+of different files with one another.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+You can use git log to get a list of all the past git commits, and then use
+the ids of said commits to compare 2 commits with each other. It is useful
+in terms of understanding exactly what changed between the two commits, and so
+could be used for debugging or to understand how code was written.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Simply put, you can revert to a previous version of you screw up the current
+head. It gives you more freedom to experiment.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to use it to initialize a git repo for a Python script I created last week.
+I also want to set it up to act as version control for a Unity project I am
+working on.
