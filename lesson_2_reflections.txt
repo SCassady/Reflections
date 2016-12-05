@@ -9,3 +9,10 @@ How is the staging area different from the working directory and the repository?
 It is the intermediary space in between the two. The value it has is that you
 can decide which files to commit before doing so, and can change your mind about
 them and modify before the commit.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use diff to check how many files have been changed since your working
+directory or last commit, preventing you from committing more than you wanted
+to.
