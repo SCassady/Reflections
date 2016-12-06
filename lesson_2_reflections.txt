@@ -24,3 +24,9 @@ When you are experimenting, when in a group and one person is adding changes to 
 file. They allow you to discard changes if they don't work out, and if they are
 breaking than the master won't be affected. Also, it allows work on the master
 to be completed at the same time.
+
+
+How do the diagrams help you visualize the branch structure?
+
+Commits are basically nodes in the tree that is the repository. Therefore,
+graphs are useful to analyze branches and commits.
