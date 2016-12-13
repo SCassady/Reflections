@@ -30,3 +30,16 @@ How do the diagrams help you visualize the branch structure?
 
 Commits are basically nodes in the tree that is the repository. Therefore,
 graphs are useful to analyze branches and commits.
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The changes introduced in both branches are combined into a single, new commit.
+They can be represented as graph lines joining because that is what they
+essentially are.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+It makes routine merges very quick. The con is that conflict resolution can be
+a bit messy because of the strange notation, etc.
