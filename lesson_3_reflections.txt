@@ -23,3 +23,10 @@ What is the benefit of having a copy of the last known state of the remote store
 It is useful if you want to keep access to the recent remote but are currently working
 on potentially breaking changes locally. It could also be useful if you want to make
 some custom merge involving a local branch and the remote branch (rather than the auto merge.)
+
+
+How would you collaborate without using Git or GitHub? What would be easier and what would be harder?
+
+You could use something like DropBox or Google Drive, or a local shared folder in a LAN.
+It would be easier to change and generally maneuver the directory, but it would be much harder
+to deal with merge conflicts, versioning, and collaboration.
