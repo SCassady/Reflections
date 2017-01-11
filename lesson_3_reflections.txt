@@ -30,3 +30,8 @@ How would you collaborate without using Git or GitHub? What would be easier and 
 You could use something like DropBox or Google Drive, or a local shared folder in a LAN.
 It would be easier to change and generally maneuver the directory, but it would be much harder
 to deal with merge conflicts, versioning, and collaboration.
+
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You might want to make experimental changes, changes which are potentially breaking in a branch, or focused on one purpose so that you keep it logically separated from the more mainstream changes. The other option, make all changes directly in the master, might mean your work overlaps other peoples which could be more confusing but could also be faster. Pull requests also are a convenient way for the administrators of the project to review any changes before they are placed into the project.
